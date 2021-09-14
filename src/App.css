@@ -1,0 +1,80 @@
+
+
+/*-------------------*/
+
+/* || Main layout */
+
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* || Navigation bar */
+
+header {
+  text-align: center;
+}
+
+nav {
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+}
+
+nav li {
+  display: inline-block;
+  flex: 1;
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+.nav-btn {
+  display: block;
+  outline: none;
+  text-decoration: none;
+  border-bottom: 0.5rem solid;
+  border-top: 0.5rem solid;
+  padding: 0;
+}
+
+/* || Theming */
+
+.nav-btn:link,
+.nav-btn:visited {
+  background-color: lightseagreen;
+  color: white;
+  border-color: lightseagreen;
+}
+
+.nav-btn:hover {
+  border-top-color: lightcyan;
+}
+
+.nav-btn:active {
+  border-color: darkcyan;
+  color: lightseagreen;
+  background-color: lightcyan;
+}
+
+footer {
+  background-color: lightseagreen;
+  color: white;
+}
+
+/* || Footer */
+
+footer {
+  text-align: center;
+  font-size: 1.3rem;
+}
